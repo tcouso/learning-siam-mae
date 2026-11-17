@@ -1,6 +1,6 @@
 # Learning SiamMAE
 
-A from-scratch PyTorch re-implementation of [**SiamMAE**](https://arxiv.org/abs/2305.14344) (Siamese Masked Autoencoders for Video, Gupta et al., NeurIPS 2023), built as a learning project to understand the architecture in depth rather than as a research contribution.
+A from-scratch PyTorch re-implementation of [**SiamMAE**](https://arxiv.org/abs/2305.14344) (Siamese Masked Autoencoders for Video, Gupta et al., NeurIPS 2023), built as a learning project to understand the architecture in depth.
 
 This project is a working SiamMAE: an encoder-decoder model that takes a **past frame** (fully visible) and a **future frame** (heavily masked), and learns to reconstruct the masked future patches by cross-attending to the past frame's representation. Trained on synthetic camera trajectories around rotating 3D solids, it correctly reconstructs future frames from motion context.
 
